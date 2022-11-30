@@ -1,3 +1,5 @@
+#include "lib.h"
+
 bool numeriprimi (int n) {
 
     for (int i=2; i<=n; i++) {
