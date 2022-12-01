@@ -1,12 +1,12 @@
 #include <iostream>
-#include "lib.h"
 using namespace std;
+#include "lib.h"
 
-int main(){
- 
-  int numero=0;
-    cin >> numero;
-    bool a = numeriprimi (numero);
+int main () {
+
+    int n;
+    cin >>n;
+    bool a = numeriprimi (n);
 
     if (a == false) {
         cout << "numero non primo" << endl;
@@ -15,5 +15,5 @@ int main(){
         cout << "numero primo" << endl;
     }
 
-  return 0;
+    return 0;
 }
