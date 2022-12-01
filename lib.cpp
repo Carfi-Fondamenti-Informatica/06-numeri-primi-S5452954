@@ -17,3 +17,4 @@ bool numeriprimi (int numero) {
         return false;
     }
 }
+
