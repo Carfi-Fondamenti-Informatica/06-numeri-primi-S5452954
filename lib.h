@@ -1,8 +1,5 @@
 #ifndef INC_10_LIB_H
 #define INC_10_LIB_H
-bool numeriprimi (int numero);
+bool numeriprimi (int, int);
 
 #endif //INC_10_LIB_H
-
-
-
