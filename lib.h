@@ -1,8 +1,8 @@
-#ifndef ESERCITAZIONE_6_LIB_H
-#define ESERCITAZIONE_6_LIB_H
-
+#ifndef INC_10_LIB_H
+#define INC_10_LIB_H
 bool numeriprimi (int numero);
-#endif
+
+#endif //INC_10_LIB_H
 
 
 
