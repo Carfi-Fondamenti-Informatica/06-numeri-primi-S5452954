@@ -1,3 +1,7 @@
+//
+// Created by Amministratore on 30/11/2022.
+//
+
 #include "lib.h"
 
 bool numeriprimi (int n, int i) {
