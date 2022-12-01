@@ -1,19 +1,15 @@
 #include <iostream>
-using namespace std;
 #include "lib.h"
+using namespace std;
 
-int main () {
-
-    int n;
-    cin >>n;
-    bool a = numeriprimi (n);
-
-    if (a == false) {
-        cout << "numero non primo" << endl;
+int main(){
+    int n=0;
+    cin >> n;
+    if (numeriprimi (n,2) == true) {
+        cout << "numero primo";
     }
-    else if (a == true) {
-        cout << "numero primo" << endl;
+    else{
+        cout << "numero non primo";
     }
-
     return 0;
 }
