@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
  
-  int n;
-    cin >>n;
-    bool a = numeriprimi (n);
+  int numero=0;
+    cin >> numero;
+    bool a = numeriprimi (numero);
 
     if (a == false) {
         cout << "numero non primo" << endl;
