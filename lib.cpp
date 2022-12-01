@@ -1,20 +1,13 @@
 #include "lib.h"
 
-bool numeriprimi (int numero) {
-    int div = 1;
-    int conta = 0;
-
-    while (conta < 3 && div <= numero / 2) {
-        if (numero % div == 0) {
-            conta = conta + 1;
-            div = div + 1;
+bool numeriprimi (int n, int i) {
+    for (i = 2; i < n; i++) {
+        if (n % i == 0) {
+            return false;
+        } else {
+            return true;
         }
-
-    }
-    if (conta == 1) {
-        return true;
-    } else {
-        return false;
     }
 }
+
 
